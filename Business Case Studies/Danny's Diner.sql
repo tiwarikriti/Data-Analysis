@@ -1,6 +1,4 @@
-/* --------------------
-   Case Study Questions
-   --------------------*/
+
 
 -- 1. What is the total amount each customer spent at the restaurant?
 	select s.customer_id, sum(me.price) as total_amt 
